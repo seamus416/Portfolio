@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        body {
+            background: linear-gradient(to right, #dd64ac, #ce52e1, #3fadd9); /* Gradient background */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            height: 100vh; /* Full viewport height */
+            font-family: Arial, sans-serif; /* Font family */
+        }
+        
+        .topnav {
+            background-color: #333; /* Navbar background color */
+            overflow: hidden; /* Ensure content doesn't overflow */
+            position: relative; /* Relative positioning */
+            width: 100%; /* Full width of the page */
+        }
+
+        .topnav a {
+            float: left; /* Align links to the left */
+            color: #f2f2f2; /* Link text color */
+            text-align: center; /* Center text in links */
+            padding: 14px 16px; /* Padding around links */
+            text-decoration: none; /* Remove underline from links */
+            font-size: 17px; /* Font size for links */
+        }
+
+        .topnav a:hover {
+            background-color: #ddd; /* Background color on hover */
+            color: black; /* Text color on hover */
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D; /* Active link background color */
+            color: white; /* Active link text color */
+        }
+
+        .contact {
+            padding: 20px; /* Padding inside the section */
+            margin-top: 70px; /* Margin to push content below the navbar */
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            height: calc(100vh - 70px); /* Height minus navbar height */
+        }
+
+        .box {
+            background-color: white; /* Box background color */
+            padding: 30px; /* Padding inside the box */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+            max-width: 600px; /* Maximum width of the box */
+            text-align: center; /* Center text inside the box */
+        }
+
+        h2 {
+            margin-top: 0; /* Remove top margin from heading */
+        }
+
+        p {
+            font-size: 18px; /* Font size for paragraph */
+            color: #333; /* Text color */
+        }
+
+        footer {
+            background-color: #333; /* Footer background color */
+            text-align: center; /* Center text in footer */
+            padding: 10px 0; /* Padding in footer */
+            width: 100%; /* Full width */
+            font-size: 14px; /* Font size in footer */
+        }
+
+        footer p {
+            color: white; /* Footer text color */
+        }
+    </style>
+</head>
+<body>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="experience.html">Work Experience</a>
+    <a class="active" href="contact.html">Contact</a>
+</div>
+
+<div class="contact">
+    <div class="box">
+        <h2>Contact Information</h2>
+        <p>Here is the section for my contact information.</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Seamus McKeag. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
